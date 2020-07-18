@@ -24,6 +24,7 @@ Robocar Controller is a mobile app designed to provide a “commandless” user 
 Please refer to the [quick start guide here](https://medium.com/robocar-store/robocar-controller-quick-start-guide-bdf8cb16d7ce?source=friends_link&sk=8f21a5792f81a1d340abe9433d78cf5b).
 
 
+## Features Details
 ### Built-in Hotspot 
 The car will become a hotspot when there is no known Wifi network to connect. After connecting your phone to this hotspot, you can use the app to configure the car to join the Wifi network you want. 
 
