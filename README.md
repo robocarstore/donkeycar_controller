@@ -2,7 +2,7 @@
 
 Robocar Controller is a mobile app designed to provide a “commandless” user experience to get started with the Donkey Car. 
 
-![cover](./images/1.png)
+![cover](./images/cover.png)
 
 ## Features
 - Commandless experience - No SSH or text editor
@@ -14,7 +14,8 @@ Robocar Controller is a mobile app designed to provide a “commandless” user 
 - Drive Summary
 - Free GPU training
 - Autopilot
-- Battery level and protection
+- Advanced configuration
+- Battery level
 
 ## Requirements
 - A Donkey Car with Pi 4B (Jetson Nano is not yet supported)
@@ -51,6 +52,7 @@ The app presents a drive summary with histogram, the size and the number of imag
 
 ### Visualize the data 
 The app shows all the data(tubs) and the metadata you have collected on the Pi. The metadata includes number of images, size of the tub, the resolutions, the histogram and the location. The app will make use of the donkey makemovie command to generate a video so you can review how the data look like.
+
 ![Data](./images/data.png)
 
 ### Free GPU Training
@@ -88,8 +90,6 @@ The Doneky car software comes with a vast of configuration that you can experime
 
 
 
-
-
 ### Battery level
 
 If you are using MM1, the app shows you the current battery level in percentage. We have also added an OS tweak that if battery level fall below 7V, the system will shutdown automatically.
@@ -104,7 +104,7 @@ If you are using MM1, the app shows you the current battery level in percentage.
 
 
 ## Report a problem
-If you encountered a problem, please file an issue on this github project.
+If you encountered a problem, please file an issue on [this github project](https://github.com/robocarstore/donkeycar_controller).
 
 
 
@@ -116,4 +116,4 @@ We would love to call the app Donkeycar Controller but Apple does not allow us t
 
 
 ## Commercial Usage
-This app is developed by [Robocar Store](https://www.robocarstore.com). If you plan to use this app to make money, please follow the [Donkey Car guideline](https://www.donkeycar.com/make-money.html) and send an email to [Robocar Store](sales@robocarstore.com).
+This app is developed by [Robocar Store](https://www.robocarstore.com). If you plan to use this app to make money, please follow the [Donkey Car guideline](https://www.donkeycar.com/make-money.html) and send an email to [Robocar Store](mailto:sales@robocarstore.com).
